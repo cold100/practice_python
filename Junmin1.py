@@ -7,12 +7,12 @@
 #
 #  123, результат: [3, 2, 1]
 
-def Junmin1(intNumber) -> list:
+def Junmin1(Number: int) -> list:
     reciprocal_number = []
-    while intNumber > 0:
-        remainder = intNumber % 10
+    while Number > 0:
+        remainder = Number % 10
         reciprocal_number.append(remainder)
-        intNumber = intNumber // 10
+        Number = Number // 10
     return reciprocal_number
   
   
